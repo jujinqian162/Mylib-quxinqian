@@ -1,0 +1,195 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Coroutine",
+					"jsonFile" : "directory-Coroutine-Debug-91d5411a199fd4894ffe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Coroutine",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Filesystem",
+					"jsonFile" : "directory-Filesystem-Debug-ff94fd9d97368a1038fd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "Filesystem",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "PressureTest",
+					"jsonFile" : "directory-PressureTest-Debug-5df3f72561b7547fbced.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "PressureTest",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "Format",
+					"jsonFile" : "directory-Format-Debug-aa4e8c19ab1167f0c9dd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "Format",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Library"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "coroutine",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "FileSystem",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "pressure_test",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "format",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "coroutine::@20ca7c50edc2da06fae0",
+					"jsonFile" : "target-coroutine-Debug-b81c4ba02693cc048f3f.json",
+					"name" : "coroutine",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "filesystem::@222e82409ca0026076d4",
+					"jsonFile" : "target-filesystem-Debug-3a2e9c094067e8dedabf.json",
+					"name" : "filesystem",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "format::@d530863e37906d7f7697",
+					"jsonFile" : "target-format-Debug-942a8091d5e54ca77d41.json",
+					"name" : "format",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "pressure::@bf02073b33a0b0f67586",
+					"jsonFile" : "target-pressure-Debug-8fec3a63630775d454e4.json",
+					"name" : "pressure",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "I:/CODE/C++/_Lib/Mylib/build",
+		"source" : "I:/CODE/C++/_Lib/Mylib"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
